@@ -1,10 +1,12 @@
 package heranca;
 
 public class animal {
-	
+   
 	private String nome;
 	private int idade;
-	private boolean emitirSom;
+	private String emitirSom;
+	
+	
 	public String getNome() {
 		return nome;
 	}
@@ -17,11 +19,10 @@ public class animal {
 	public void setIdade(int idade) {
 		this.idade = idade;
 	}
-	public boolean isEmitirSom() {
+	public String getEmitirSom() {
 		return emitirSom;
 	}
-	public void setEmitirSom(boolean emitirSom) {
+	public void setEmitirSom(String emitirSom) {
 		this.emitirSom = emitirSom;
 	}
-
 }
